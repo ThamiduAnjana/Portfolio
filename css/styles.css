@@ -55,7 +55,7 @@ body {
 }
 
 #main {
-  float: left;
+  float: none;
   width: 70%;
   padding: 0 30px;
   box-sizing: border-box;
@@ -92,15 +92,8 @@ body {
   width: 100%;
   float: none;
 }
-
-.cpecific h2{
-  width: 500px;
+.cpecific h1{
   color: #ff6600;
-  text-align: center;
-}
-
-.cpecific p {
-  width: 500px;
 }
 .content h1{
   text-decoration: underline;
