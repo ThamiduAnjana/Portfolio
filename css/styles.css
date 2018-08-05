@@ -87,14 +87,18 @@ body {
     float:none;
   }
 }
-
-#sidebar{
-  width: 100%;
-  float: none;
+.cpecific {
+  width: 80%;
+  overflow: hidden;
 }
+
 .cpecific h2{
   color: #ff6600;
 }
-.content h1{
-  text-decoration: underline;
+
+#picture{
+  background:  url('../images/pic4.png');
+  background-position: center right;
+  min-height: 300x;
+  margin-bottom: 30px;
 }
