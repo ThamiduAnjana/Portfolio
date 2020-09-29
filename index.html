@@ -13,7 +13,7 @@
         <h1>First Week at <cite>Moringa School</cite></h1>
       </div>
     </header>
-
+    <div> 
       <small>Posted by Adili 03/Aug/2018</small>
     </div>
     <nav id="navbar">
@@ -76,7 +76,8 @@
        </p>
       </div>
       </section>
-
+    
+  <center>
     <div class="container">
     <section id="main">
       <h1>Let me know how did you find this!!!</h1>
@@ -86,48 +87,49 @@
    </div>
 
   <!-- Form -->
-
+  
   <form action="process.php" method="POST">
-    <div>
-      <label>First Name</label>
-      <input type="text" name="firstName" placeholder="Enter First Name">
-    </div>
-    <br>
-    <div>
-      <label>Last Name</label>
-      <input type="text" name="lastName" placeholder="Enter Last Name">
-    </div>
-    <br>
-    <div>
-      <label>Email</label>
-      <input type="email" name="email" placeholder="example@gmail.com">
-    </div>
-    <br>
-    <div>
-      <label>Message</label>
-      <textarea name="message"></textarea>
-    </div>
-    <br>
-    <div>
-      <label>Gender</label>
-      <select name="Gender">
+      <table>
+          <tr>
+              <td>First Name</td>
+              <td><input type="text" name="firstName" placeholder="Enter First Name"></td>
+          </tr>
+          <tr>
+                <td>Last Name</td>
+                <td><input type="text" name="lastName" placeholder="Enter Last Name"></td>   
+          </tr>
+           <tr>
+                <td>Email</td>
+                <td><input type="text" name="lastName" placeholder="Enter Last Name"></td>   
+          </tr>
+           <tr>
+                <td>Message</td>
+                <td><textarea name="message"></textarea></td>   
+          </tr>
+          <tr>
+                <td>Gender</td>
+                <td><select name="Gender">
         <option value="male">Male</option>
         <option value="female">Female</option>
         <option value="other">Other</option>
-      </select>
-    </div>
-    <br>
-    <div>
-      <label>Age</label>
-      <input type="number" name="age" value="30">
-    </div>
-    <br>
-    <div>
-      <label>Birthday:</label>
-      <input type="date" name="birthday">
-    <br>
-    <input type="submit" name="submit" value="Submit">
-
+      </select></td>   
+          </tr>
+          <tr>
+                <td>Age</td>
+                <td><input type="number" name="age" value="30"></td>   
+          </tr>
+          
+          <tr>
+                <td>Birthday:</td>
+                <td><input type="date" name="birthday"></td>   
+          </tr>
+           <tr>
+                <td> </td>
+                <td><input type="submit" name="submit" value="Submit"></td>   
+          </tr>
+      </table>
+   </center>   
+ 
    <!-- Footer -->
 
    <footer id="main-footer">
