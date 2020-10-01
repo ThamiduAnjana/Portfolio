@@ -99,6 +99,6 @@ body {
 #picture{
   background:  url('../images/pic4.png');
   background-position: center right;
-  min-height: 300x;
+  min-height: 300px;
   margin-bottom: 30px;
 }
